@@ -17,7 +17,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="mx-auto w-[70%] flex flex-row justify-between items-center py-6 ">
+    <div className="mx-auto w-[70%] flex flex-row justify-between items-center py-6  ">
       <img src={logo} alt="" className="w-[124px] h-[32px]" />
       <ul className="flex flex-row  gap-[40px] justify-end">
         {navLinks.map((el) => {
